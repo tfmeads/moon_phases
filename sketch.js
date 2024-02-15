@@ -9,6 +9,7 @@ function preload(){
     video = createVideo('assets/moon_compressed_cropped.mp4');
     video.style("z-index: -1");
     video.class('vid');
+    video.volume(0);
     video.autoplay();
     video.loop();
 
@@ -35,7 +36,6 @@ function draw() {
     let xOffset = i % 3;
 
     let x = width/2 + (xOffset * MOON_SIZE) * 1.5 - 700;
-
 
     let y = height/4 + (yOffset * MOON_SIZE) - MOON_SIZE;
 
