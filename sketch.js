@@ -19,7 +19,7 @@ function preload(){
     }
 }
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight * 3);
+  canvas = createCanvas(windowWidth, windowHeight * 2);
 
   rectMode(CENTER);
 
